@@ -3,11 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class hellowworldcontroller extends Controller
 {
-    public function index ()
+    public function index()
     {
-        return "saya sedang belajar laravel 11";
+        return "Selamat belajar laravel 10";
     }
 }
